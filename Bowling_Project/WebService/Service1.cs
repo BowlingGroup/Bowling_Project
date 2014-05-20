@@ -18,6 +18,8 @@ namespace WebService
         //cloucou 
 
         //Bonjour
+        
+        // jijou
 
         public CompositeType GetDataUsingDataContract(CompositeType composite)
         {
