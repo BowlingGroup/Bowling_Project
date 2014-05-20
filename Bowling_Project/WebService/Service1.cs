@@ -17,6 +17,8 @@ namespace WebService
 
         //cloucou 
 
+        //Bonjour
+
         public CompositeType GetDataUsingDataContract(CompositeType composite)
         {
             if (composite == null)
