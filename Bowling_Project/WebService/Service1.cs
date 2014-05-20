@@ -15,6 +15,8 @@ namespace WebService
             return string.Format("You entered: {0}", value);
         }
 
+        //cloucou 
+
         public CompositeType GetDataUsingDataContract(CompositeType composite)
         {
             if (composite == null)
