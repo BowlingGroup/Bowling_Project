@@ -8,5 +8,6 @@ namespace DLL
 {
     public class Class1
     {
+        //some stuff
     }
 }
