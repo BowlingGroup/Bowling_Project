@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebService", "WebService\WebService.csproj", "{5667FE98-EF26-46F9-AC7A-0F56E96B3E62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{80D17296-1EE5-49A1-9BDD-B30F9199D060}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLL", "DLL\DLL.csproj", "{C32BEBB7-BC81-44EF-9060-F3815A4EA75B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{5667FE98-EF26-46F9-AC7A-0F56E96B3E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5667FE98-EF26-46F9-AC7A-0F56E96B3E62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5667FE98-EF26-46F9-AC7A-0F56E96B3E62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80D17296-1EE5-49A1-9BDD-B30F9199D060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80D17296-1EE5-49A1-9BDD-B30F9199D060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80D17296-1EE5-49A1-9BDD-B30F9199D060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80D17296-1EE5-49A1-9BDD-B30F9199D060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C32BEBB7-BC81-44EF-9060-F3815A4EA75B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C32BEBB7-BC81-44EF-9060-F3815A4EA75B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C32BEBB7-BC81-44EF-9060-F3815A4EA75B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C32BEBB7-BC81-44EF-9060-F3815A4EA75B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
