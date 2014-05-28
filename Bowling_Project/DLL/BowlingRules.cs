@@ -50,11 +50,11 @@ namespace DLL
         #region METHODES STAFF & CAISSIER & CLIENT
         //public void AjouterJoueurListe(String joueur)
         //{
-        //    //appelle methode DAL
+        //    //
         //}
         //public void SupprimerJoueurListe(String joueur)
         //{
-        //    //appelle methode DAL
+        //    //
         //}
         //public List<String> ListerPartie24H()
         //{
@@ -63,7 +63,7 @@ namespace DLL
         //}
         //public void CreerPartie()
         //{
-              //appelle methode DAL
+              //
         //}
         #endregion
         #region MEtHODES STAFF & CAISSIER
@@ -76,11 +76,11 @@ namespace DLL
         #region METHODES CAISSIER
         //public void LancerPartie()
         //{
-              //appelle methode DAL
+              //
         //}
         //public void AnnulerPartie()
         //{
-              //appelle methode DAL
+              //
         //}
         #endregion
         #region AFFICHER SCORE
