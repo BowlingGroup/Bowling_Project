@@ -8,6 +8,14 @@ namespace BLL
 {
     public class BowlingRules
     {
+        #region PROPRIETES
+        int scoreEssai1 { get; set; }
+        int scoreEssai2 { get; set; }
+        bool strike { get; set; }
+        bool spare { get; set; }
+        int cmptStrike { get; set; }
+        #endregion
+
         #region METHODES PISTE
         //public int CalculStrike()
         //{
@@ -19,11 +27,16 @@ namespace BLL
         //    int test = 0;
         //    return test;
         //}
-        //public int CalculScore()
-        //{
-        //    int test = 0;
-        //    return test;
-        //}
+        public int CalculScore()
+        {
+            if(scoreEssai1 != 0)
+            {
+
+            }
+
+            int score = 0;
+            return score;
+        }
         //public void SetResultat(int resultat)
         //{
         //    m_resultat = resultat;
@@ -84,11 +97,11 @@ namespace BLL
         //}
         #endregion
         #region AFFICHER SCORE
-        //public int AfficherScore()
-        //{
-              //int score = CalculScore();
-              //return score;
-        //}
+        public int AfficherScore()
+        {
+            int score = CalculScore();
+            return score;
+        }
         #endregion
     }
 }
